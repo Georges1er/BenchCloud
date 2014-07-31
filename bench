@@ -477,7 +477,8 @@ def is_dict_like(obj):
         return True
     else:
         return False
-
+    if True:
+       print "gourou"
 def is_list_like(obj):
     """Check if the object appears to be list-like."""
     if obj and (not hasattr(obj, 'keys')) and hasattr(obj, '__getitem__'):
